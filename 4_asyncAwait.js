@@ -59,9 +59,9 @@ const badTranslation = async () => {
   }
 }
 
-// translateIngredient('milk').then(log);
+translateIngredient('milk').then(log);
 // translateIngredients().then(log);
 // translateIngredientsBetter().then(log);
-badTranslation()
-  .then(val => console.log({ val }))
-  .catch(err => console.log({ err }));
+// badTranslation()
+//   .then(val => console.log({ val }))
+//   .catch(err => console.log({ err }));
